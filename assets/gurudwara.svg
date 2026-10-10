@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7E1A6"/>
+      <stop offset=".45" stop-color="#E0B562"/>
+      <stop offset="1" stop-color="#B07E38"/>
+    </linearGradient>
+    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3D58F"/>
+      <stop offset="1" stop-color="#C08E44"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFBF5"/>
+      <stop offset="1" stop-color="#F3E6D8"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E9D3CB" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#F6E8E2" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="30%" r="50%">
+      <stop offset="0" stop-color="#FFF3D6"/>
+      <stop offset=".5" stop-color="#FBE3C4" stop-opacity=".6"/>
+      <stop offset="1" stop-color="#F8E0D6" stop-opacity="0"/>
+    </radialGradient>
+    <g id="door">
+      <path d="M0 50V18C0 8 7 3 15 0C23 3 30 8 30 18V50Z" fill="#E6C4B2"/>
+      <path d="M4 50V19C4 11 9 7 15 4C21 7 26 11 26 19V50" fill="none" stroke="#C99A7E" stroke-width=".8"/>
+    </g>
+    <g id="win">
+      <path d="M0 16V7C0 3 3 1 6 0C9 1 12 3 12 7V16Z" fill="#E6C4B2"/>
+    </g>
+    <g id="chhatri">
+      <path d="M-14 0H14V-4H-14Z" fill="#F1E3D2" stroke="#C9A57C" stroke-width=".6"/>
+      <path d="M-11-4V-18M11-4V-18M0-4V-18" stroke="#D9C2A6" stroke-width="2.2"/>
+      <path d="M-14-18H14V-21H-14Z" fill="#F1E3D2" stroke="#C9A57C" stroke-width=".6"/>
+      <path d="M-12-21C-14-30-6-38 0-42C6-38 14-30 12-21Z" fill="url(#gold)"/>
+      <path d="M0-42V-50" stroke="#C08E44" stroke-width="1.4"/>
+      <circle cy="-46" r="1.8" fill="#E0B562"/>
+    </g>
+  </defs>
+
+  <!-- warm light behind -->
+  <ellipse cx="200" cy="110" rx="190" ry="120" fill="url(#sun)"/>
+  <g stroke="#F3D8A8" stroke-opacity=".45" stroke-width="1.2">
+    <path d="M200 70L120 0M200 70L160 0M200 70L240 0M200 70L280 0M200 70L60 20M200 70L340 20"/>
+  </g>
+
+  <!-- trees -->
+  <g opacity=".9">
+    <ellipse cx="28" cy="214" rx="26" ry="32" fill="#A9B38E"/>
+    <ellipse cx="14" cy="226" rx="20" ry="24" fill="#8E9A73"/>
+    <ellipse cx="374" cy="214" rx="26" ry="32" fill="#A9B38E"/>
+    <ellipse cx="388" cy="226" rx="20" ry="24" fill="#8E9A73"/>
+  </g>
+
+  <!-- side wings -->
+  <g stroke="#C9A57C" stroke-width=".8">
+    <rect x="48" y="186" width="66" height="50" fill="url(#wall)"/>
+    <rect x="286" y="186" width="66" height="50" fill="url(#wall)"/>
+    <path d="M44 186H118M282 186H356" stroke-width="1.2"/>
+  </g>
+  <use href="#door" x="66" y="196"/>
+  <use href="#door" x="304" y="196"/>
+  <use href="#chhatri" transform="translate(81 186)"/>
+  <use href="#chhatri" transform="translate(319 186)"/>
+
+  <!-- main hall -->
+  <rect x="112" y="150" width="176" height="86" fill="url(#wall)" stroke="#C9A57C" stroke-width=".8"/>
+  <path d="M106 150H294" stroke="#C9A57C" stroke-width="1.4"/>
+  <g fill="#F1E3D2" stroke="#C9A57C" stroke-width=".5">
+    <path d="M112 150v-6h176v6"/>
+  </g>
+  <g fill="#DFC6AE"><circle cx="126" cy="147" r="1.4"/><circle cx="142" cy="147" r="1.4"/><circle cx="158" cy="147" r="1.4"/><circle cx="174" cy="147" r="1.4"/><circle cx="226" cy="147" r="1.4"/><circle cx="242" cy="147" r="1.4"/><circle cx="258" cy="147" r="1.4"/><circle cx="274" cy="147" r="1.4"/></g>
+  <use href="#door" x="128" y="186"/>
+  <use href="#door" x="242" y="186"/>
+  <path d="M182 236V198C182 186 191 179 200 175C209 179 218 186 218 198V236Z" fill="#D9AE96"/>
+  <path d="M186 236V199C186 189 193 184 200 180C207 184 214 189 214 199V236" fill="none" stroke="#B88870" stroke-width=".8"/>
+  <path d="M190 236V214h20v22" fill="#C99A86" opacity=".6"/>
+
+  <!-- corner chhatris on hall -->
+  <use href="#chhatri" transform="translate(118 144)"/>
+  <use href="#chhatri" transform="translate(282 144)"/>
+
+  <!-- upper storey -->
+  <rect x="148" y="116" width="104" height="28" fill="url(#wall)" stroke="#C9A57C" stroke-width=".8"/>
+  <path d="M142 116H258" stroke="#C9A57C" stroke-width="1.2"/>
+  <use href="#win" x="160" y="123"/>
+  <use href="#win" x="178" y="123"/>
+  <use href="#win" x="210" y="123"/>
+  <use href="#win" x="228" y="123"/>
+
+  <!-- main dome -->
+  <rect x="172" y="104" width="56" height="12" fill="#F1E3D2" stroke="#C9A57C" stroke-width=".7"/>
+  <g fill="#E8CDB4"><rect x="178" y="107" width="4" height="7"/><rect x="188" y="107" width="4" height="7"/><rect x="198" y="107" width="4" height="7"/><rect x="208" y="107" width="4" height="7"/><rect x="218" y="107" width="4" height="7"/></g>
+  <path d="M166 104C150 90 162 62 200 40C238 62 250 90 234 104Z" fill="url(#gold)"/>
+  <path d="M176 100C168 86 178 66 200 48" fill="none" stroke="#FFF3D0" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+  <g fill="none" stroke="#B88540" stroke-width=".8" opacity=".55">
+    <path d="M200 42V104M184 50C176 66 176 88 182 104M216 50C224 66 224 88 218 104"/>
+  </g>
+  <g fill="url(#goldV)">
+    <path d="M194 42h12l-2-4h-8z"/>
+    <circle cx="200" cy="33" r="5"/>
+    <path d="M196 28h8l-2-3h-4z"/>
+    <circle cx="200" cy="21" r="3.2"/>
+  </g>
+  <path d="M200 18V6" stroke="#C08E44" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- small domes flanking -->
+  <g>
+    <path d="M150 116C143 108 148 94 158 88C168 94 173 108 166 116Z" fill="url(#gold)"/>
+    <path d="M158 88V80" stroke="#C08E44" stroke-width="1.2"/>
+    <path d="M234 116C227 108 232 94 242 88C252 94 257 108 250 116Z" fill="url(#gold)"/>
+    <path d="M242 88V80" stroke="#C08E44" stroke-width="1.2"/>
+  </g>
+
+  <!-- platform & steps -->
+  <path d="M36 236H364V244H36Z" fill="#F1E3D2" stroke="#C9A57C" stroke-width=".7"/>
+  <path d="M28 244H372V252H28Z" fill="#EADBC9" stroke="#C9A57C" stroke-width=".6"/>
+  <path d="M176 236h48l6 16h-60z" fill="#F5EBDF" stroke="#C9A57C" stroke-width=".5"/>
+
+  <!-- Nishan Sahib -->
+  <g>
+    <path d="M362 252V58" stroke="#E58A33" stroke-width="3.2"/>
+    <path d="M362 252V58" stroke="#F6B26B" stroke-width="1" transform="translate(-.8 0)"/>
+    <path d="M362 62C350 66 338 72 326 78C338 82 350 88 362 94Z" fill="#F29A3A">
+      <animate attributeName="d" dur="3.2s" repeatCount="indefinite"
+        values="M362 62C350 66 338 72 326 78C338 82 350 88 362 94Z;M362 62C352 70 336 70 324 80C338 80 350 90 362 94Z;M362 62C350 66 338 72 326 78C338 82 350 88 362 94Z"/>
+    </path>
+    <g transform="translate(350 78)" fill="#2F3A6B">
+      <circle r="3.4" fill="none" stroke="#2F3A6B" stroke-width="1"/>
+      <path d="M0-6V6" stroke="#2F3A6B" stroke-width="1.2"/>
+    </g>
+    <path d="M358 56l4-8 4 8z" fill="#2F3A6B"/>
+  </g>
+
+  <!-- sarovar & reflection -->
+  <rect x="0" y="252" width="400" height="48" fill="url(#water)"/>
+  <g opacity=".18" transform="translate(0 504) scale(1 -1)">
+    <path d="M166 104C150 90 162 62 200 40C238 62 250 90 234 104Z" fill="#E0B562"/>
+    <rect x="112" y="150" width="176" height="86" fill="#F3E6D8"/>
+    <rect x="148" y="116" width="104" height="28" fill="#F3E6D8"/>
+  </g>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".7" stroke-width="1" stroke-linecap="round">
+    <path d="M120 262h60M220 266h70M80 272h40M260 276h50M160 280h80"/>
+  </g>
+</svg>

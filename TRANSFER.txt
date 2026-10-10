@@ -1,0 +1,15 @@
+MOVE TO ANOTHER DEVICE
+
+Extract this archive, then open a terminal in the extracted website folder.
+Install a current Node.js LTS version, then run:
+
+  npm install
+  npm start
+
+Open http://127.0.0.1:5173/
+
+This frontend currently has no npm dependencies; npm install is optional.
+Use npm run build to regenerate the production dist folder.
+All source files, assets, scripts, documentation and hidden source configuration
+are included unchanged. Generated builds, preview/deployment output, caches and
+node_modules are omitted. Read README.md for GitHub Pages deployment.

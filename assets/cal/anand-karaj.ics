@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anisha & Harjeet//Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anisha & Harjeet
+BEGIN:VEVENT
+UID:anand-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270117T043000Z
+DTEND:20270117T073000Z
+SUMMARY:Anand Karaj · Anisha & Harjeet
+LOCATION:Gurudwara Sahib\, Paschim Enclave\, Peeragarhi Village\, Paschim V
+ ihar\, Delhi 110087
+DESCRIPTION:Directions: https://share.google/iCxTSIsSQW9iUbTf1\n\n#AnishaFo
+ undHerJeet
+URL:https://share.google/iCxTSIsSQW9iUbTf1
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Anand Karaj · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+END:VCALENDAR

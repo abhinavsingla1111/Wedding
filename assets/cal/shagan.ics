@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anisha & Harjeet//Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anisha & Harjeet
+BEGIN:VEVENT
+UID:shagan-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270115T130000Z
+DTEND:20270115T173000Z
+SUMMARY:Shagan · Anisha & Harjeet
+LOCATION:The Ritz\, 2nd floor\, Moti Nagar\, New Delhi
+DESCRIPTION:Directions: https://maps.app.goo.gl/KJdc3BYf1bXnd65X9\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/KJdc3BYf1bXnd65X9
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Shagan · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+END:VCALENDAR

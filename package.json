@@ -1,0 +1,11 @@
+{
+  "name": "anisha-harjeet-invitation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "dev": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "preview": "node scripts/serve.cjs dist"
+  }
+}

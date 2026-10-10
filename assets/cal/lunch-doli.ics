@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anisha & Harjeet//Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anisha & Harjeet
+BEGIN:VEVENT
+UID:lunch-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270117T083000Z
+DTEND:20270117T110000Z
+SUMMARY:Lunch · Anisha & Harjeet
+LOCATION:Casa Royal\, 2nd floor\, Peeragarhi\, New Delhi
+DESCRIPTION:Directions: https://maps.app.goo.gl/X2JTGKxUkbtwUvYe9\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/X2JTGKxUkbtwUvYe9
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Lunch · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:doli-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270117T113000Z
+DTEND:20270117T130000Z
+SUMMARY:Doli · Anisha & Harjeet
+LOCATION:Casa Royal\, 2nd floor\, Peeragarhi\, New Delhi
+DESCRIPTION:Directions: https://maps.app.goo.gl/X2JTGKxUkbtwUvYe9\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/X2JTGKxUkbtwUvYe9
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Doli · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Anisha & Harjeet//Invitation//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Anisha & Harjeet
+BEGIN:VEVENT
+UID:haldi-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270116T050000Z
+SUMMARY:Haldi · Anisha & Harjeet
+LOCATION:Hestia BnB
+DESCRIPTION:Directions: https://maps.app.goo.gl/wqRZfD7o83m8ZUn98\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/wqRZfD7o83m8ZUn98
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Haldi · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:mehndi-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270116T090000Z
+SUMMARY:Mehndi · Anisha & Harjeet
+LOCATION:Hestia BnB
+DESCRIPTION:Directions: https://maps.app.goo.gl/wqRZfD7o83m8ZUn98\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/wqRZfD7o83m8ZUn98
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:Mehndi · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dj-2027@anisha-harjeet
+DTSTAMP:20261010T000000Z
+DTSTART:20270116T130000Z
+SUMMARY:DJ Night · Anisha & Harjeet
+LOCATION:Hestia BnB
+DESCRIPTION:Directions: https://maps.app.goo.gl/wqRZfD7o83m8ZUn98\n\n#Anish
+ aFoundHerJeet
+URL:https://maps.app.goo.gl/wqRZfD7o83m8ZUn98
+BEGIN:VALARM
+TRIGGER:-PT3H
+ACTION:DISPLAY
+DESCRIPTION:DJ Night · Anisha & Harjeet
+END:VALARM
+END:VEVENT
+END:VCALENDAR
